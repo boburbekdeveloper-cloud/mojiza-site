@@ -47,7 +47,7 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-start space-x-3 text-gray-400">
                 <Phone className="h-5 w-5 text-primary-500 mt-1" />
-                <span>+998 (90) 123-45-67</span>
+                <span>+998 (88) 006-02-07</span>
               </li>
               <li className="flex items-start space-x-3 text-gray-400">
                 <Send className="h-5 w-5 text-primary-500 mt-1" />
@@ -65,9 +65,9 @@ const Footer = () => {
             <h3 className="text-lg font-bold mb-6 border-l-4 border-primary-600 pl-4">Yangiliklar</h3>
             <p className="text-gray-400 text-sm mb-4">Aksiyalar va chegirmalardan xabardor bo'ling.</p>
             <form className="flex">
-              <input 
-                type="email" 
-                placeholder="Emailingiz..." 
+              <input
+                type="email"
+                placeholder="Emailingiz..."
                 className="bg-gray-800 border-none rounded-l-xl px-4 py-3 text-white w-full focus:ring-2 focus:ring-primary-600 transition-all outline-none"
               />
               <button className="bg-primary-600 px-4 rounded-r-xl hover:bg-primary-700 transition-all">
@@ -76,7 +76,7 @@ const Footer = () => {
             </form>
           </div>
         </div>
-        
+
         <div className="pt-8 border-t border-gray-800 text-center text-gray-500 text-sm">
           <p>© {new Date().getFullYear()} Mojiza Savdo Markazi. Barcha huquqlar himoyalangan.</p>
         </div>
