@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div className="pt-32 pb-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-24">
           {/* Contact Details */}
           <motion.div
@@ -22,7 +22,7 @@ const Contact = () => {
 
             <div className="space-y-6">
               {[
-                { icon: <Phone className="h-6 w-6" />, label: 'Telefon', value: '+998 (90) 123-45-67', color: 'bg-green-50 text-green-600' },
+                { icon: <Phone className="h-6 w-6" />, label: 'Telefon', value: '+998 (88) 006-02-07', color: 'bg-green-50 text-green-600' },
                 { icon: <Send className="h-6 w-6" />, label: 'Telegram', value: '@mojiza_savdo_markazi', color: 'bg-blue-50 text-blue-600' },
                 { icon: <Clock className="h-6 w-6" />, label: 'Ish vaqti', value: 'Dush-Yak: 08:00 - 22:00', color: 'bg-purple-50 text-purple-600' },
                 { icon: <MapPin className="h-6 w-6" />, label: 'Manzil', value: 'Paxtaobod tumani, Markaziy ko\'cha, 1-uy', color: 'bg-orange-50 text-orange-600' },
@@ -66,11 +66,11 @@ const Contact = () => {
 
         {/* Map Section */}
         <div id="location" className="w-full h-[500px] rounded-[3rem] overflow-hidden shadow-2xl relative">
-          <iframe 
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11364.639330617326!2d72.48318852656247!3d40.92388000000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38bc938e2d4f243b%3A0x63351d1844579c0!2sPakhtaabad%2C%20Andijan%20Region%2C%20Uzbekistan!5e0!3m2!1sen!2s!4v1712952000000!5m2!1sen!2s" 
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11364.639330617326!2d72.48318852656247!3d40.92388000000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38bc938e2d4f243b%3A0x63351d1844579c0!2sPakhtaabad%2C%20Andijan%20Region%2C%20Uzbekistan!5e0!3m2!1sen!2s!4v1712952000000!5m2!1sen!2s"
             className="absolute inset-0 w-full h-full border-0"
-            allowFullScreen="" 
-            loading="lazy" 
+            allowFullScreen=""
+            loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
